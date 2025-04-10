@@ -1,0 +1,33 @@
+.demo-card-wide.mdl-card {
+    width: 512px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('discord-server-grunge-design-promo-banner-with-3d-style-icon_402554-200-2484804647.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  .mdl-button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent-color);
+}
+#mitte {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 1rem;
+}

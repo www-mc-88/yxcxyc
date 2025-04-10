@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titel der Einzelseite</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+
+    <link href="haubtsteiel.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="background">
+  <div id="oben">
+     <div id="logo">
+         <div id="logo_bild">
+             <div id="logo_bild_oben"></div>
+         </div>
+         <div id="logo-text"><h2><a href="startseite.html">Haven city</a></h2>
+         </div>
+    </div>
+     <div id="nav">
+          <ul>
+              <li><a href="startseite.html">startseite</a></li>
+              <li><a href="discord.html">discord</a></li>
+              <li><a>info+ip</a></li>
+              <li><a href="login.html">login</a></li>
+         </ul>
+      </div>
+      <div class="container">
+        <div class="form-container" id="loginFormContainer">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="loginUsername">Benutzername:</label>
+                    <input type="text" id="loginUsername" name="loginUsername" required>
+                </div>
+                <div class="input-group">
+                    <label for="loginPassword">Passwort:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                </div>
+                <button type="submit">Einloggen</button>
+                <p id="loginError" class="error-message"></p>
+            </form>
+            <p>Noch kein Konto? <a href="javascript:void(0);" onclick="showRegisterForm()">Registrieren</a></p>
+        </div>
+
+        <div class="form-container" id="registerFormContainer" style="display: none;">
+            <h2>Registrierung</h2>
+            <form id="registerForm">
+                <div class="input-group">
+                    <label for="registerUsername">Benutzername:</label>
+                    <input type="text" id="registerUsername" name="registerUsername" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerPassword">Passwort:</label>
+                    <input type="password" id="registerPassword" name="registerPassword" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerConfirmPassword">Passwort bestätigen:</label>
+                    <input type="password" id="registerConfirmPassword" name="registerConfirmPassword" required>
+                </div>
+                <div class="input-group">
+                    <label for="registrationPassword">Registrierungspasswort:</label>
+                    <input type="password" id="registrationPassword" name="registrationPassword" required>
+                    <small>Gib das zusätzliche Passwort für die Registrierung ein.</small>
+                </div>
+                <button type="submit">Registrieren</button>
+                <p id="registerError" class="error-message"></p>
+            </form>
+            <p>Schon ein Konto? <a href="javascript:void(0);" onclick="showLoginForm()">Login</a></p>
+        </div>
+        <p><a href="startseite.html">zurück</a></p>
+    </div>
+
+
+    <script src="script.js"></script>
+    <div id="unten">
+        <p>abonirt gerne bboyj owner</p>
+        <div id="social_icons">
+        <h4><a id="social_yt" href="https://www.youtube.com/@RandomBoy-smartguy/featured" 
+               target="_blank"> Youtube</a> </h4>
+        </div>
+      </div>
+      </div>
+      
+      <footer>
+        <p>&copy; 2024 Haven City. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    
+</body>
+    
+</html>

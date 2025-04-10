@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
+
+body {
+    font-family: 'Rooboto', sans-serif;
+    margin: 100;
+}
+
+p {
+ font-family: 'Rooboto Condensed', sans-serif;   
+}
+
+#logo {
+    display: flex;
+   flex-direction: column;
+    align-items: center
+}
+
+#logo_bild {
+    width: 50px;
+    height: 50px;
+    background-color: #9f5c23;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#logo_bild_oben{
+    background-color: green;
+    width: 100%;
+    height: 30%;
+}
+
+#logo_text {
+    font-size:30px;    
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#nav ul li {
+   padding-left:20px;
+    padding-right:20px;
+    color: gray;
+}
+
+#nav ul li a:hover {
+    cursor:pointer;
+    color: green;
+}
+
+slider {
+    background-image: url("https://staticg.sportskeeda.com/editor/2022/12/e168b-16703667409205-1920.jpg");
+    width:100%;
+    height: 150px;
+    background-size:cover;
+    background-position:center;
+}
+
+#mitte {
+    padding-left: 5%;
+    padding-right:5%; 
+}
+
+#mitte h3 {
+    color:darkred;
+}
+
+h6 {
+   color: green;
+    font-size:20px;
+}
+
+#mitte p {
+    color: black;
+}
+#unten {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: green;
+    margin-top: 15px;
+}
+
+
+#unten p {
+    text-align: center;
+}
+
+#social_icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#social_icons  a {
+    padding:10px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    margin: 5
+}
+
+#social_yt {
+    background-color:#cd201f;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+#owner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#owner  a {
+    padding:10px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    margin: 5;
+    background-color: darkred;
+}
+
+html {
+    background: url(lobby.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: 100%;
+    background-size: 100%;
+}
+
+#logo-text {
+    cursor: pointer;
+}
+#logo-text a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
